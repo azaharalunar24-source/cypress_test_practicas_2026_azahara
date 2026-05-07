@@ -1,0 +1,6 @@
+Característica: Gestión de tareas
+
+  Escenario: Agregar una nueva tarea
+    Dado que el usuario navega a la página de tareas
+    Cuando agrega la tarea "comprar café"
+    Entonces la lista debe contener "comprar café"
